@@ -1,0 +1,28 @@
+{
+  "name": "gdnx-node-end",
+  "version": "1.0.0",
+  "description": "搭建nodejs后台接口模板",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hm243695czl",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dayjs": "^1.10.4",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "ip": "^1.1.5",
+    "jsonwebtoken": "^8.5.1",
+    "log4js": "^6.3.0",
+    "morgan": "^1.10.0",
+    "mount-middlewares": "^1.0.7",
+    "mysql": "^2.18.1",
+    "node-uuid": "^1.4.8",
+    "nodemon": "^2.0.7"
+  }
+}
